@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> распродажа футболок</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styte.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <header style="background-color: rgb(143, 187, 238);">
+            <center><font size="3">футболки с принтами</font><br>
+            <font color="red" size="4">499<sup><font size="2">руб</font></sup></font><br>
+            <span class="redtext"> ПОЧЕМУ ТАК ДЕШЕВО?</span><br><br>
+            <div style="display: flex; justify-content: center;"><figure><img src="прайс.png" height="100px"> <figcaption>низкие цены</figcaption></figure>
+            <figure><img src="машина.png" height="100px"><figcaption>доставки по всей России</figcaption></figure>
+             <figure><img src="хит.png" height="100px"><figcaption>только хиты</figcaption></figure>   
+            </div>
+            </center>
+        </header>
+
+
+        <main>
+            <div class="maintext"><center><font size="5"><b>ФУТБОЛКИ</b></font><br>
+            100% хлопок
+            </center></div>
+            <div class="t-shirt">
+                <div class="blacktsh"><img src="blacktsh.png" height="480px" width="550px" style="border: 2px black solid;"> 
+                <center>Футболка<br><font color="red">499 Р</font><br>
+                <button class="zakaz" onclick="alert('Добавили в заказ!')">ДОБАВИТЬ В ЗАКАЗ</button></center>
+                </div>
+            <div class="whitetsh"> <img src="whitetsh.png" height="480px" style="border: 2px black solid;">
+                <center>Футболка<br><font color="red">499 Р</font><br>
+                <button class="zakaz" onclick="alert('Добавили в заказ!')">ДОБАВИТЬ В ЗАКАЗ</button></center>
+                </div>
+            </div>
+            <section class="size">
+                <div style="background-color: lightgrey; padding: 10px;"><center><font size="5">Как выбрать размер?</font></center></div>
+                <div class="t-shirt">
+                    <div class="bluetsh"><img src="bluetsh.png" style="border: 3px black solid" >
+                        <center>Футболка<br><font color="red">499 Р</font><br>
+                        <button class="zakaz" onclick="alert('Добавили в заказ!')">ДОБАВИТЬ В ЗАКАЗ</button></center>
+                    </div>
+                    <div class="bluetsh"><img src="bluetsh.png" style="border: 3px black solid" >
+                        <center>Футболка<br><font color="red">499 Р</font><br>
+                        <button class="zakaz" onclick="alert('Добавили в заказ!')">ДОБАВИТЬ В ЗАКАЗ</button></center>
+                    </div>
+                    <div class="bluetsh"><img src="bluetsh.png" style="border: 3px black solid" >
+                        <center>Футболка<br><font color="red">499 Р</font><br>
+                        <button class="zakaz"onclick="alert('Добавили в заказ!')">ДОБАВИТЬ В ЗАКАЗ</button></center>
+                    </div>
+                </div>
+                <div class="t-shirt">
+                    <div class="bluetsh"><img src="bluetsh.png" style="border: 3px black solid" >
+                        <center>Футболка<br><font color="red">499 Р</font><br>
+                        <button class="zakaz" onclick="alert('Добавили в заказ!')">ДОБАВИТЬ В ЗАКАЗ</button></center>
+                    </div>
+                    <div class="bluetsh"><img src="bluetsh.png" style="border: 3px black solid" >
+                        <center>Футболка<br><font color="red">499 Р</font><br>
+                        <button class="zakaz" onclick="alert('Добавили в заказ!')">ДОБАВИТЬ В ЗАКАЗ</button></center>
+                    </div>
+                    <div class="bluetsh"><img src="bluetsh.png" style="border: 3px black solid" >
+                        <center>Футболка<br><font color="red">499 Р</font><br>
+                        <button class="zakaz" onclick="prompt('введите ваше имя')">ДОБАВИТЬ В ЗАКАЗ</button></center>
+                    </div>
+                    
+                </div>
+            </section>
+            <section class="rozigrish">
+                <div class="drow">
+                   <div class="drow-text">
+                    <p>РОЗЫГРЫШ </p>
+                    <p>10 000 <sup>руб</sup></p>
+                    <p><font color="yellow">Среди обдладателей купонов</font></p>
+                    Вечером 1 июня команда разыграет приз в прямом эфире на аккаунте @dsgsdgsdgas
+                   </div> 
+                   <div class="drow-img">
+                    <img src="money.jpg" height="150px" width="150px">
+                   </div>
+                </div>
+            </section>
+            <section class="basket">
+                <h3>ВАШ ЗАКАЗ</h3>
+                <div style="background-color: yellow; padding: 0.2em;" >
+                    <h3>Корзина пуста</h3>
+                </div>
+                <font size="2" color="grey"> В корзине пусто!</font>
+            </section>
+            
+            <section class="form" >
+                <form>
+                    <h3>Оформление заказа</h3>
+                    <p><label>Имя</label><br><input class="input-text" type="text" placeholder="Имя"></p>
+                    <p><label>Фамилия</label><br><input class="input-text" type="text" placeholder="Фамилия"></p>
+                    <p><label>Почта</label><br><input class="input-text" type="email" placeholder="Введите почту"></p>
+                    <p><label>Телефон</label><br><input class="input-text" type="text" placeholder="Номер телефона"></p>
+                    <font color="green">Оплата онлайн</font><br>
+                    <center><button class="oplata" style="background-color: green; color: white; border-radius: 5px; padding: 10px;">перейти к заказу</button></center>
+                    
+                </form>
+            </section>
+            <div class="support">
+                <img src="tp.png" width="75" height="75" style="border: 3px black solid; position: fixed; right: 0; bottom: 0; background-color: white;" onclick="click_message()">
+                <img src="podarok.png" style="position: fixed; left: 0; top: 1%;" width="70" height="50">
+            </div>
+        </main>
+        
+        
+        <footer>
+
+        </footer>
+    </body>
+</html>

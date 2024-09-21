@@ -1,0 +1,67 @@
+.redtext {
+    background-color: red;
+    color: white;
+}
+.maintext {
+    margin-top: 25px;
+}
+.t-shirt {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.blacktsh {
+    margin-right: 20px;
+    border: 4px red solid;
+    padding: 20px;
+}
+.zakaz {
+    background-color: red;
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.whitetsh {
+    border: 4px red solid;
+    padding: 20px;
+}
+.size {
+    margin-top: 20px;
+}
+.bluetsh {
+    margin-right: 20px;
+}
+.drow {
+    justify-content: space-between;
+    display: flex;
+    background-color: red;
+    margin-top: 40px;
+    padding-left: 20px;
+    line-height: 5px;
+    box-shadow: -5px -5px 30px black;
+}
+.drow-text {
+    color: white;
+    font-size: 20px;
+    
+}
+.basket {
+    margin-left: 2em;
+}
+.form {
+    display: flex;
+    justify-content: center;
+}
+.input-text{
+    background-color: rgb(247, 243, 243);
+    padding: 0.5em;
+    box-shadow: 2px 2px 1em black ;
+    border: none;
+    min-width: 150px;
+    max-width: 200px;
+    margin-top: 5px;
+}
+.oplata {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
